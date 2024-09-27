@@ -279,7 +279,7 @@
                                         </a>
                                     </div>
                                     <div class="pl-10 pr-10">
-                                        <h5 class="post-title mb-15"><a href="/single">Vancouver woman finds pictures and videos of herself online</a></h5>
+                                        <h5 class="post-title mb-15"><a href="/single">This is the best funded trader program in the world! Click to for more</a></h5>
                                         <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase mb-10">
                                             <span class="post-in">In <a href="category.html">Global</a></span>
                                             <span class="post-by">By <a href="author.html">K. Marry</a></span>
