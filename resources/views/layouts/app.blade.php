@@ -248,12 +248,12 @@
                                             </ul>
                                             <ul class="col-md-2">
                                                 <li><strong>Pages</strong></li>
-                                                <li><a href="typography.html">Typography</a></li>
-                                                <li><a href="about.html">About us</a></li>
-                                                <li><a href="contact.html">Contact us</a></li>
-                                                <li><a href="search.html">Search</a></li>
-                                                <li><a href="author.html">Author</a></li>
-                                                <li><a href="404.html">404 page</a></li>
+                                                <li><a href="/typography">Typography</a></li>
+                                                <li><a href="/about">About us</a></li>
+                                                <li><a href="/contact">Contact us</a></li>
+                                                <li><a href="/search">Search</a></li>
+                                                <li><a href="/author">Author</a></li>
+                                                <li><a href="/404">404 page</a></li>
                                             </ul>
                                             <div class="col-md-6 text-right">
                                                 <a href="#"><img class="border-radius-10" src="assets/imgs/ads-2.jpg" alt=""></a>
@@ -261,7 +261,7 @@
                                         </div>
                                     </li>
                                     <li class="mega-menu-item">
-                                        <a href="category.html"><span class="mr-15">
+                                        <a href="/category"><span class="mr-15">
                                                     <ion-icon name="megaphone-outline"></ion-icon>
                                                 </span>Mega</a>
                                         <div class="sub-mega-menu">
@@ -530,7 +530,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="category-metro.html"><span class="mr-15">
+                                    <li><a href="/category-metro"><span class="mr-15">
                                                     <ion-icon name="film-outline"></ion-icon>
                                                 </span>Video</a></li>
                                     <li><a href="contact.html"><span class="mr-15">

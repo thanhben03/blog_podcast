@@ -78,3 +78,8 @@ Route::get('/single-video', function () {
 Route::get('/typography', function () {
     return view('typography');
 });
+
+
+Route::get('/404', function () {
+    return view('404');
+});

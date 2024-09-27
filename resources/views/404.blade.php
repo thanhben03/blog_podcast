@@ -1,0 +1,22 @@
+@extends('layouts.app')
+
+@section('content')
+
+    <div class="container">
+        <div class="row mb-30">
+            <div class="col-12">
+                <div class="content-404 text-center mb-30">
+                    <h1 class="mb-30">404</h1>
+                    <p>The page you were looking for could not be found.</p>
+                    <p class="text-muted">You may have typed the address incorrectly or you may have used an outdated link, or that page is traveling on Mars :) </p>
+                    <h6 class="mt-50 mb-15">Try search our site</h6>
+                    <form action="#" method="get" class="search-form d-lg-flex open-search mb-30">
+                        <i class="icon-search"></i>
+                        <input class="form-control" name="name" id="search" type="text" placeholder="Search...">
+                    </form>
+                    <p>Visit the <a href="index.html">Homepage</a> or <a href="contact.html">Contact us</a> about the problem</p>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
