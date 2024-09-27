@@ -175,12 +175,12 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-3">
                         <div class="header-logo d-none d-lg-block">
-                            <a href="index.html">
+                            <a href="/home">
                                 <img class="logo-img d-inline" src="assets/imgs/logo.svg" alt="">
                             </a>
                         </div>
                         <div class="logo-tablet d-md-inline d-lg-none d-none">
-                            <a href="index.html">
+                            <a href="/index">
                                 <img class="logo-img d-inline" src="assets/imgs/logo.svg" alt="">
                             </a>
                         </div>
