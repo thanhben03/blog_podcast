@@ -644,7 +644,7 @@
                                     <div class="post-thumb d-flex mb-15 border-radius-15 img-hover-scale">
                                         <a href="/single">
                                             <video autoplay="" class="photo-item__video" loop="" muted="" preload="none">
-                                                <source src="https://player.vimeo.com/external/210754416.sd.mp4?s=826dbe91a402d3fc239674b6595a0100b2a45098&amp;profile_id=164&amp;oauth2_token_id=57447761" type="video/mp4">
+                                                <source src="{{asset('/assets/video/demo.mp4')}}" type="video/mp4">
                                             </video>
                                         </a>
                                     </div>
