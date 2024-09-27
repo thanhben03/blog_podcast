@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>NewsViral - NewsViral HTML Template</title>
+    <title>Trade 24h</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/assets/imgs/favicon.svg')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/assets/imgs/logo_bac.png')}}">
     <!-- NewsViral CSS  -->
     <link rel="stylesheet" href="{{asset('/assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/widgets.css')}}">
