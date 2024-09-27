@@ -9,9 +9,9 @@
                 <div class="sidebar-widget widget-weather border-radius-10 bg-white mb-30 mt-55">
                     <div class="d-flex">
                         <div class="font-medium">
-                            <p>Monday</p>
-                            <h2>12</h2>
-                            <p><strong>August</strong></p>
+                            <p>Friday</p>
+                            <h2>27</h2>
+                            <p><strong>Sep</strong></p>
                         </div>
                         <div class="font-medium ml-10 pt-20">
                             <div id="datetime" class="d-inline-block">
@@ -50,16 +50,16 @@
                                         </span>Businesss</a></li>
                         <li class="cat-item cat-item-4"><a href="#"><span class="mr-10">
                                             <ion-icon name="glasses-outline"></ion-icon>
-                                        </span>Entertainment</a></li>
+                                        </span>Finance</a></li>
                         <li class="cat-item cat-item-5"><a href="#"><span class="mr-10">
                                             <ion-icon name="bicycle-outline"></ion-icon>
-                                        </span>Sport News</a></li>
+                                        </span>Economy</a></li>
                         <li class="cat-item cat-item-6"><a href="#"><span class="mr-10">
                                             <ion-icon name="fitness-outline"></ion-icon>
-                                        </span>Health</a></li>
+                                        </span>On Market</a></li>
                         <li class="cat-item cat-item-2"><a href="#"><span class="mr-10">
                                             <ion-icon name="book-outline"></ion-icon>
-                                        </span>Magazine</a></li>
+                                        </span>Education</a></li>
                     </ul>
                 </div>
                 <!-- Widget Categories -->
@@ -266,93 +266,86 @@
                     </div>
                     <div class="col-lg-4 col-md-12 sidebar-right">
                         <!--Post aside style 2-->
-                        <div class="sidebar-widget">
+                        <div class="sidebar-widget mb-50" style="margin-top: 60px">
                             <div class="widget-header mb-30">
-                                <h5 class="widget-title">Top <span>Trending</span></h5>
                             </div>
-                            <div class="post-aside-style-2">
-                                <ul class="list-post">
-                                    <li class="mb-30 wow fadeIn animated">
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-2.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">Vancouver woman finds pictures and videos of herself online</a></h6>
-                                                <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
-                                                    <span class="post-by">By <a href="author.html">K. Marry</a></span>
-                                                    <span class="post-on">4m ago</span>
-                                                </div>
-                                            </div>
+                            <div class="post-aside-style-3">
+                                <article class="bg-white border-radius-15 mb-30 p-10 wow fadeIn animated">
+                                    <div class="post-thumb d-flex mb-15 border-radius-15 img-hover-scale">
+                                        <a href="/single">
+                                            <video autoplay="" class="photo-item__video" loop="" muted="" preload="none">
+                                                <source src="{{asset('/assets/video/demo.mp4')}}" type="video/mp4">
+                                            </video>
+                                        </a>
+                                    </div>
+                                    <div class="pl-10 pr-10">
+                                        <h5 class="post-title mb-15"><a href="/single">Vancouver woman finds pictures and videos of herself online</a></h5>
+                                        <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase mb-10">
+                                            <span class="post-in">In <a href="category.html">Global</a></span>
+                                            <span class="post-by">By <a href="author.html">K. Marry</a></span>
+                                            <span class="post-on">4m ago</span>
                                         </div>
-                                    </li>
-                                    <li class="mb-30 wow fadeIn animated">
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-3.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">4 Things Emotionally Intelligent People Don’t Do</a></h6>
-                                                <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
-                                                    <span class="post-by">By <a href="author.html">Mr. John</a></span>
-                                                    <span class="post-on">3h ago</span>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </article>
+                                <article class="bg-white border-radius-15 mb-30 p-10 wow fadeIn animated">
+                                    <div class="post-thumb d-flex mb-15 border-radius-15 img-hover-scale">
+                                        <a href="/single">
+                                            <img class="border-radius-15" src="assets/imgs/news-22.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="pl-10 pr-10">
+                                        <h5 class="post-title mb-15"><a href="/single">Fight breaks out at Disneyland</a></h5>
+                                        <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase mb-10">
+                                            <span class="post-in">In <a href="category.html">Healthy</a></span>
+                                            <span class="post-by">By <a href="author.html">Steven</a></span>
+                                            <span class="post-on">14m ago</span>
                                         </div>
-                                    </li>
-                                    <li class="mb-30 wow fadeIn animated">
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-5.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">Reflections from a Token Black Friend</a></h6>
-                                                <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
-                                                    <span class="post-by">By <a href="author.html">Kenedy</a></span>
-                                                    <span class="post-on">4h ago</span>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- -->
+                        <div class="sidebar-widget p-20 border-radius-15 bg-white widget-latest-comments wow fadeIn animated">
+                            <div class="widget-header mb-30">
+                                <h5 class="widget-title">Last <span>Comments</span></h5>
+                            </div>
+                            <div class="post-block-list post-module-6">
+                                <div class="last-comment mb-20 d-flex wow fadeIn animated">
+                                            <span class="item-count vertical-align">
+                                                <a class="red-tooltip author-avatar" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Azumi - 985 posts"><img src="assets/imgs/authors/author-14.png" alt=""></a>
+                                            </span>
+                                    <div class="alith_post_title_small">
+                                        <p class="font-medium mb-10"><a href="/single">A writer is someone for whom writing is more difficult than it is for other people.</a></p>
+                                        <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase mb-10">
+                                            <span class="post-by">By <a href="author.html">Azumi</a></span>
+                                            <span class="post-on">4m ago</span>
                                         </div>
-                                    </li>
-                                    <li class="mb-30 wow fadeIn animated">
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-7.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">How to Identify a Smart Person in 3 Minutes</a></h6>
-                                                <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
-                                                    <span class="post-by">By <a href="author.html">Steven</a></span>
-                                                    <span class="post-on">5h ago</span>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
+                                <div class="last-comment mb-20 d-flex wow fadeIn animated">
+                                            <span class="item-count vertical-align">
+                                                <a class="red-tooltip author-avatar" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Harry - 1245 posts"><img src="assets/imgs/authors/author-9.png" alt=""></a>
+                                            </span>
+                                    <div class="alith_post_title_small">
+                                        <p class="font-medium mb-10"><a href="/single">Riding the main trail was easy, a little bumpy because my mountain bike is a hardtail</a></p>
+                                        <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase mb-10">
+                                            <span class="post-by">By <a href="author.html">K. Harry</a></span>
+                                            <span class="post-on">4m ago</span>
                                         </div>
-                                    </li>
-                                    <li class="wow fadeIn animated">
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-8.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">Blackface Minstrel Songs Don’t Belong in Children’s Music Class</a></h6>
-                                                <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
-                                                    <span class="post-by">By <a href="author.html">J.Smith</a></span>
-                                                    <span class="post-on">5h30 ago</span>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
+                                <div class="last-comment d-flex wow fadeIn animated">
+                                            <span class="item-count vertical-align">
+                                                <a class="red-tooltip author-avatar" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Johny - 445 posts"><img src="assets/imgs/authors/author-3.png" alt=""></a>
+                                            </span>
+                                    <div class="alith_post_title_small">
+                                        <p class="font-medium mb-10"><a href="/single">Teamwork begins by building trust. And the only way to do that is to overcome our need for invulnerability.</a></p>
+                                        <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase mb-10">
+                                            <span class="post-by">By <a href="author.html">D. Johny</a></span>
+                                            <span class="post-on">4m ago</span>
                                         </div>
-                                    </li>
-                                </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!--Top authors-->
