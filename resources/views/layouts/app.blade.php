@@ -185,7 +185,7 @@
                             </a>
                         </div>
                         <div class="logo-mobile d-block d-md-none">
-                            <a href="index.html">
+                            <a href="/">
                                 <img class="logo-img d-inline" src="assets/imgs/favicon.svg" alt="">
                             </a>
                         </div>
