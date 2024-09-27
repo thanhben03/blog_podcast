@@ -265,118 +265,6 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 sidebar-right">
-                        <!--Post aside style 1-->
-                        <div class="sidebar-widget mb-30">
-                            <div class="widget-header position-relative mb-30">
-                                <div class="row">
-                                    <div class="col-7">
-                                        <h4 class="widget-title mb-0">Don't <span>miss</span></h4>
-                                    </div>
-                                    <div class="col-5 text-right">
-                                        <h6 class="font-medium pr-15">
-                                            <a class="text-muted font-small" href="#">View all</a>
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-aside-style-1 border-radius-10 p-20 bg-white">
-                                <ul class="list-post">
-                                    <li class="mb-20">
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-4.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">Federal arrests show no sign that antifa plotted protests</a></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mb-20">
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-15.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">How line-dried laundry gets that fresh smell</a></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mb-20">
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-16.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">Traveling tends to magnify all human emotions</a></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="d-flex">
-                                            <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
-                                                <a class="color-white" href="/single">
-                                                    <img src="assets/imgs/thumbnail-15.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="post-content media-body">
-                                                <h6 class="post-title mb-10 text-limit-2-row"><a href="/single">How line-dried laundry gets that fresh smell</a></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Top authors-->
-                        <div class="sidebar-widget mb-30">
-                            <div class="widget-top-auhor border-radius-10 p-20 bg-white">
-                                <div class="widget-header widget-header-style-1 position-relative mb-15">
-                                    <h5 class="widget-title pl-5">Top <span>Authors</span></h5>
-                                </div>
-                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Emma - 1034 posts"><img src="assets/imgs/authors/author-2.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Oliver - 245 posts"><img src="assets/imgs/authors/author-3.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Sophia - 356 posts"><img src="assets/imgs/authors/author-4.png" alt=""></a>
-                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Emili - 152 posts"><img src="assets/imgs/authors/author-5.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Harry - 245 posts"><img src="assets/imgs/authors/author-17.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Noah - 758 posts"><img src="assets/imgs/authors/author-7.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Isabella - 231 posts"><img src="assets/imgs/authors/author-8.png" alt=""></a>
-                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Charlie - 256 posts"><img src="assets/imgs/authors/author-9.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Amelia - 652 posts"><img src="assets/imgs/authors/author-10.png" alt=""></a>
-                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jack - 125 posts"><img src="assets/imgs/authors/author-11.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Elizabeth - 452 posts"><img src="assets/imgs/authors/author-12.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Malcolm - 124 posts"><img src="assets/imgs/authors/author-13.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Abigail - 1245 posts"><img src="assets/imgs/authors/author-14.png" alt=""></a>
-                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Matthew - 1325 posts"><img src="assets/imgs/authors/author-15.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Genesis - 562 posts"><img src="assets/imgs/authors/author-16.png" alt=""></a>
-                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Charlie - 256 posts"><img src="assets/imgs/authors/author-17.png" alt=""></a>
-                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Amelia - 652 posts"><img src="assets/imgs/authors/author-18.png" alt=""></a>
-                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jack - 125 posts"><img src="assets/imgs/authors/author-20.png" alt=""></a>
-                            </div>
-                        </div>
-                        <!--Newsletter-->
-                        <div class="sidebar-widget widget_newsletter border-radius-10 p-20 bg-white mb-30">
-                            <div class="widget-header widget-header-style-1 position-relative mb-15">
-                                <h5 class="widget-title">Newsletter</h5>
-                            </div>
-                            <div class="newsletter">
-                                <p class="font-medium">Heaven fruitful doesn't over les idays appear creeping</p>
-                                <form target="_blank" action="#" method="get" class="subscribe_form relative mail_part">
-                                    <div class="form-newsletter-cover">
-                                        <div class="form-newsletter position-relative">
-                                            <input type="email" name="EMAIL" placeholder="Put your email here" required="">
-                                            <button type="submit">
-                                                <i class="ti ti-email"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
                         <!--Post aside style 2-->
                         <div class="sidebar-widget">
                             <div class="widget-header mb-30">
@@ -467,6 +355,52 @@
                                 </ul>
                             </div>
                         </div>
+                        <!--Top authors-->
+                        <div class="sidebar-widget mb-30">
+                            <div class="widget-top-auhor border-radius-10 p-20 bg-white">
+                                <div class="widget-header widget-header-style-1 position-relative mb-15">
+                                    <h5 class="widget-title pl-5">Top <span>Authors</span></h5>
+                                </div>
+                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Emma - 1034 posts"><img src="assets/imgs/authors/author-2.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Oliver - 245 posts"><img src="assets/imgs/authors/author-3.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Sophia - 356 posts"><img src="assets/imgs/authors/author-4.png" alt=""></a>
+                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Emili - 152 posts"><img src="assets/imgs/authors/author-5.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Harry - 245 posts"><img src="assets/imgs/authors/author-17.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Noah - 758 posts"><img src="assets/imgs/authors/author-7.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Isabella - 231 posts"><img src="assets/imgs/authors/author-8.png" alt=""></a>
+                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Charlie - 256 posts"><img src="assets/imgs/authors/author-9.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Amelia - 652 posts"><img src="assets/imgs/authors/author-10.png" alt=""></a>
+                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jack - 125 posts"><img src="assets/imgs/authors/author-11.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Elizabeth - 452 posts"><img src="assets/imgs/authors/author-12.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Malcolm - 124 posts"><img src="assets/imgs/authors/author-13.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Abigail - 1245 posts"><img src="assets/imgs/authors/author-14.png" alt=""></a>
+                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Matthew - 1325 posts"><img src="assets/imgs/authors/author-15.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Genesis - 562 posts"><img src="assets/imgs/authors/author-16.png" alt=""></a>
+                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Charlie - 256 posts"><img src="assets/imgs/authors/author-17.png" alt=""></a>
+                                <a class="red-tooltip" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Amelia - 652 posts"><img src="assets/imgs/authors/author-18.png" alt=""></a>
+                                <a class="red-tooltip active" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jack - 125 posts"><img src="assets/imgs/authors/author-20.png" alt=""></a>
+                            </div>
+                        </div>
+                        <!--Newsletter-->
+                        <div class="sidebar-widget widget_newsletter border-radius-10 p-20 bg-white mb-30">
+                            <div class="widget-header widget-header-style-1 position-relative mb-15">
+                                <h5 class="widget-title">Newsletter</h5>
+                            </div>
+                            <div class="newsletter">
+                                <p class="font-medium">Heaven fruitful doesn't over les idays appear creeping</p>
+                                <form target="_blank" action="#" method="get" class="subscribe_form relative mail_part">
+                                    <div class="form-newsletter-cover">
+                                        <div class="form-newsletter position-relative">
+                                            <input type="email" name="EMAIL" placeholder="Put your email here" required="">
+                                            <button type="submit">
+                                                <i class="ti ti-email"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="row">

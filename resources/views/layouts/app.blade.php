@@ -227,7 +227,7 @@
                                         <a href="#">
                                                 <span class="mr-15">
                                                     <ion-icon name="desktop-outline"></ion-icon>
-                                                </span>Layouts
+                                                </span>News
                                         </a>
                                         <div class="sub-mega-menu sub-menu-list row text-muted font-small">
                                             <ul class="col-md-2">
@@ -263,7 +263,7 @@
                                     <li class="mega-menu-item">
                                         <a href="/category"><span class="mr-15">
                                                     <ion-icon name="megaphone-outline"></ion-icon>
-                                                </span>Mega</a>
+                                                </span>Podcast</a>
                                         <div class="sub-mega-menu">
                                             <div class="nav flex-column nav-pills" role="tablist">
                                                 <a class="nav-link active" data-toggle="pill" href="#news-0" role="tab">All</a>
