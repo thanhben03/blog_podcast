@@ -533,7 +533,7 @@
                                     <li><a href="/category-metro"><span class="mr-15">
                                                     <ion-icon name="film-outline"></ion-icon>
                                                 </span>Video</a></li>
-                                    <li><a href="contact.html"><span class="mr-15">
+                                    <li><a href="/contact"><span class="mr-15">
                                                     <ion-icon name="mail-unread-outline"></ion-icon>
                                                 </span>Contact</a></li>
                                 </ul>
