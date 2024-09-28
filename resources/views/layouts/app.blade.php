@@ -213,17 +213,12 @@
                             </ul>
                             <nav>
                                 <ul class="main-menu d-none d-lg-inline">
-                                    <li class="menu-item-has-children">
+                                    <li>
                                         <a href="/">
                                             <span class="mr-15">
                                                     <ion-icon name="home-outline"></ion-icon>
                                             </span>Home
                                         </a>
-                                        <ul class="sub-menu text-muted font-small">
-                                            <li><a href="/">Home default</a></li>
-                                            <li><a href="/home2">Homepage 2</a></li>
-                                            <li><a href="/home3">Homepage 3</a></li>
-                                        </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
@@ -232,11 +227,11 @@
                                                 </span>Thị trường phái sinh
                                         </a>
                                         <ul class="sub-menu sub-menu-2 text-muted font-small">
-                                            <li><a href="#">Cập nhật thị trường</a></li>
-                                            <li><a href="#">Phân tích</a></li>
-                                            <li><a href="#">Chiến lược</a></li>
-                                            <li><a href="#">Quản lý rủi ro</a></li>
-                                            <li><a href="#">Kỹ năng</a></li>
+                                            <li><a href="/category">Cập nhật thị trường</a></li>
+                                            <li><a href="/category-grid">Phân tích</a></li>
+                                            <li><a href="/category-big">Chiến lược</a></li>
+                                            <li><a href="/category-metro">Quản lý rủi ro</a></li>
+                                            <li><a href="/single-audio">Kỹ năng</a></li>
                                         </ul>
                                     </li>
                                     <li class="mega-menu-item">
