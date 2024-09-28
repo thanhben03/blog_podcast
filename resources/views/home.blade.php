@@ -67,9 +67,9 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
                         <!-- Featured posts -->
-                        <div class="featured-post mb-50">
-                            <h4 class="widget-title mb-30">Today <span>Highlight</span></h4>
-                            <div class="featured-slider-1 border-radius-10">
+                        <div class="featured-post mb-30">
+{{--                            <h4 class="widget-title mb-30">Today <span>Highlight</span></h4>--}}
+                            <div class="featured-slider-1 border-radius-10" style="margin-top: 60px">
                                 <div class="featured-slider-1-items">
                                     <div class="slider-single p-10">
                                         <div class="img-hover-slide border-radius-15 mb-30 position-relative overflow-hidden">
@@ -136,18 +136,18 @@
                         </div>
                         <!--Videos-->
                         <div class="sidebar-widget">
-                            <div class="widget-header position-relative mb-20">
-                                <div class="row">
-                                    <div class="col-7">
-                                        <h5 class="widget-title mb-0">Videos <span>News</span></h5>
-                                    </div>
-                                    <div class="col-5 text-right">
-                                        <h6 class="font-medium pr-15">
-                                            <a class="text-muted font-small" href="#">View more</a>
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
+{{--                            <div class="widget-header position-relative mb-20">--}}
+{{--                                <div class="row">--}}
+{{--                                    <div class="col-7">--}}
+{{--                                        <h5 class="widget-title mb-0"><span></span></h5>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="col-5 text-right">--}}
+{{--                                        <h6 class="font-medium pr-15">--}}
+{{--                                            <a class="text-muted font-small" href="#"></a>--}}
+{{--                                        </h6>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                             <div class="block-tab-item post-module-1 post-module-4">
                                 <div class="row loop-list-style-1">
                                     <article class="p-10 background-white border-radius-10 mb-30 wow fadeIn animated">

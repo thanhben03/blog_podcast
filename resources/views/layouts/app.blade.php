@@ -191,7 +191,7 @@
                         </div>
                     </div>
                     <div class="col-lg-10 col-md-9 main-header-navigation">
-                        <!-- Main-menu -->f
+                        <!-- Main-menu -->
                         <div class="main-nav text-left float-lg-left float-md-right">
                             <ul class="mobi-menu d-none menu-3-columns" id="navigation">
                                 <li class="cat-item cat-item-2"><a href="#">Global Economy</a></li>
@@ -220,45 +220,36 @@
                                             </span>Home
                                         </a>
                                     </li>
-                                    <li class="menu-item-has-children">
+                                    <li>
                                         <a href="#">
                                                 <span class="mr-15">
                                                     <ion-icon name="desktop-outline"></ion-icon>
                                                 </span>Thị trường phái sinh
                                         </a>
-                                        <ul class="sub-menu sub-menu-2 text-muted font-small">
-                                            <li><a href="/category">Cập nhật thị trường</a></li>
-                                            <li><a href="/category-grid">Phân tích</a></li>
-                                            <li><a href="/category-big">Chiến lược</a></li>
-                                            <li><a href="/category-metro">Quản lý rủi ro</a></li>
-                                            <li><a href="/single-audio">Kỹ năng</a></li>
-                                        </ul>
+{{--                                        <ul class="sub-menu sub-menu-2 text-muted font-small">--}}
+{{--                                            <li><a href="/category">Cập nhật thị trường</a></li>--}}
+{{--                                            <li><a href="/category-grid">Phân tích</a></li>--}}
+{{--                                            <li><a href="/category-big">Chiến lược</a></li>--}}
+{{--                                            <li><a href="/category-metro">Quản lý rủi ro</a></li>--}}
+{{--                                            <li><a href="/single-audio">Kỹ năng</a></li>--}}
+{{--                                        </ul>--}}
                                     </li>
-                                    <li class="mega-menu-item">
-                                        <a href="/category"><span class="mr-15">
-                                                    <ion-icon name="megaphone-outline"></ion-icon>
-                                                </span>Facebook</a>
-
-                                    </li>
-                                    <li><a href="/category-metro"><span class="mr-15">
-                                                    <ion-icon name="film-outline"></ion-icon>
-                                                </span>Youtube</a></li>
                                     <li><a href="/contact"><span class="mr-15">
                                                     <ion-icon name="mail-unread-outline"></ion-icon>
                                                 </span>Liên hệ</a></li>
+                                    <li class="mega-menu-item">
+                                        <a href="https://www.facebook.com/bacnguyen.info/">
+                                            <span class="mr-15" style="color: blue">
+                                                    <ion-icon name="logo-facebook"></ion-icon>
+                                                </span>Facebook</a>
+
+                                    </li>
+                                    <li><a href="https://www.youtube.com/@bacnguyeninfo"><span style="color: red" class="mr-15">
+                                                    <ion-icon name="logo-youtube"></ion-icon>
+                                                </span>YouTube</a></li>
+
                                 </ul>
-                                <div class="d-inline ml-50 tools-icon">
-                                    <a class="red-tooltip text-danger" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Hot Topics">
-                                        <ion-icon name="flame-outline"></ion-icon>
-                                    </a>
-                                    <a class="red-tooltip text-primary" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Trending">
-                                        <ion-icon name="flash-outline"></ion-icon>
-                                    </a>
-                                    <a class="red-tooltip text-success" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Notifications">
-                                        <ion-icon name="notifications-outline"></ion-icon>
-                                        <span class="notification bg-success">5</span>
-                                    </a>
-                                </div>
+
                             </nav>
                         </div>
                         <!-- Search -->
