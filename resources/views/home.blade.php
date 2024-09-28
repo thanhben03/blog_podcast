@@ -222,6 +222,56 @@
                                             </div>
                                         </div>
                                     </article>
+                                    <article class="p-10 background-white border-radius-10 mb-30 wow fadeIn animated">
+                                        <div class="d-md-flex d-block">
+                                            <div class="post-thumb post-thumb-big d-flex mr-15 border-radius-15 img-hover-scale">
+                                                <a class="color-white" href="single.html">
+                                                    <img class="border-radius-15" src="assets/imgs/thumbnail-1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="post-content media-body">
+                                                <div class="entry-meta mb-15 mt-10">
+                                                    <a class="entry-meta meta-2" href="category.html"><span class="post-in text-success font-x-small">Healthy</span></a>
+                                                </div>
+                                                <h5 class="post-title mb-15 text-limit-2-row">
+                                                        <span class="post-format-icon">
+                                                            <ion-icon name="image-outline"></ion-icon>
+                                                        </span>
+                                                    <a href="single.html">Daycares are opening across the country, but can they really operate safely?</a></h5>
+                                                <p class="post-exerpt font-medium text-muted mb-30 d-none d-lg-block">These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.</p>
+                                                <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
+                                                    <span class="post-by">By <a href="author.html">JONATHAN LEMIRE</a></span>
+                                                    <span class="post-on">17/09/2020 19:35 EST</span>
+                                                    <span class="time-reading">6 mins read</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="p-10 background-white border-radius-10 mb-30 wow fadeIn animated">
+                                        <div class="d-md-flex d-block">
+                                            <div class="post-thumb post-thumb-big d-flex mr-15 border-radius-15 img-hover-scale">
+                                                <a class="color-white" href="single.html">
+                                                    <img class="border-radius-15" src="assets/imgs/thumbnail-2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="post-content media-body">
+                                                <div class="entry-meta mb-15 mt-10">
+                                                    <a class="entry-meta meta-2" href="category.html"><span class="post-in text-success font-x-small">Healthy</span></a>
+                                                </div>
+                                                <h5 class="post-title mb-15 text-limit-2-row">
+                                                        <span class="post-format-icon">
+                                                            <ion-icon name="image-outline"></ion-icon>
+                                                        </span>
+                                                    <a href="single.html">Daycares are opening across the country, but can they really operate safely?</a></h5>
+                                                <p class="post-exerpt font-medium text-muted mb-30 d-none d-lg-block">These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.</p>
+                                                <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
+                                                    <span class="post-by">By <a href="author.html">JONATHAN LEMIRE</a></span>
+                                                    <span class="post-on">17/09/2020 19:35 EST</span>
+                                                    <span class="time-reading">6 mins read</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
                                 </div>
                             </div>
                         </div>
