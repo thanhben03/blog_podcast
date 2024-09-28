@@ -221,10 +221,10 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="/category">
                                                 <span class="mr-15">
                                                     <ion-icon name="desktop-outline"></ion-icon>
-                                                </span>Thị trường phái sinh
+                                                </span>Cập nhật thị trường
                                         </a>
 {{--                                        <ul class="sub-menu sub-menu-2 text-muted font-small">--}}
 {{--                                            <li><a href="/category">Cập nhật thị trường</a></li>--}}
@@ -235,19 +235,14 @@
 {{--                                        </ul>--}}
                                     </li>
                                     <li><a href="/contact"><span class="mr-15">
-                                                    <ion-icon name="mail-unread-outline"></ion-icon>
-                                                </span>Liên hệ</a></li>
-                                    <li class="mega-menu-item">
-                                        <a href="https://www.facebook.com/bacnguyen.info/">
-                                            <span class="mr-15" style="color: blue">
-                                                    <ion-icon name="logo-facebook"></ion-icon>
-                                                </span>Facebook</a>
-
-                                    </li>
+                                                    <ion-icon name="caret-forward-circle-outline"></ion-icon>
+                                                </span>Podcast</a></li>
                                     <li><a href="https://www.youtube.com/@bacnguyeninfo"><span style="color: red" class="mr-15">
                                                     <ion-icon name="logo-youtube"></ion-icon>
                                                 </span>YouTube</a></li>
-
+                                    <li><a href="/contact"><span class="mr-15">
+                                                    <ion-icon name="newspaper-outline"></ion-icon>
+                                                </span>Liên hệ</a></li>
                                 </ul>
 
                             </nav>
