@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{asset('/assets/css/widgets.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/color.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/responsive.css')}}">
+    @stack('css')
 </head>
 
 <body>
@@ -234,7 +235,7 @@
 {{--                                            <li><a href="/single-audio">Kỹ năng</a></li>--}}
 {{--                                        </ul>--}}
                                     </li>
-                                    <li><a href="/contact"><span class="mr-15">
+                                    <li><a href="/podcast"><span class="mr-15">
                                                     <ion-icon name="caret-forward-circle-outline"></ion-icon>
                                                 </span>Podcast</a></li>
                                     <li><a href="https://www.youtube.com/@bacnguyeninfo"><span style="color: red" class="mr-15">

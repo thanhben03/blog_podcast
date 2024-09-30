@@ -79,6 +79,10 @@ Route::get('/typography', function () {
     return view('typography');
 });
 
+Route::get('/podcast', function () {
+    return view('podcast');
+});
+
 
 Route::get('/404', function () {
     return view('404');

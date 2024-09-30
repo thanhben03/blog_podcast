@@ -5,10 +5,8 @@
         <div class="container">
             <h2>
                 <span class="text-success">Cập nhật thị trường</span>
-                <span class="post-count">2538 articles</span>
             </h2>
             <div class="breadcrumb">
-                <span class="no-arrow">You are here:</span>
                 <a href="index.html" rel="nofollow">Home</a>
                 <span></span>
                 Cập nhật thị trường
@@ -255,6 +253,7 @@
                             </nav>
                         </div>
                     </div>
+                    <x-right-banner />
                 </div>
             </div>
         </div>
