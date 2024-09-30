@@ -1,8 +1,5 @@
 <div class="col-lg-4 col-md-12 sidebar-right">
     <div class="sidebar-widget mb-50">
-        <div class="widget-header mb-30">
-            <h5 class="widget-title">Banner <span>1</span></h5>
-        </div>
         <div class="post-aside-style-3">
             <article class="bg-white border-radius-15 mb-30 p-10 wow fadeIn animated">
                 <div class="post-thumb d-flex mb-15 border-radius-15 img-hover-scale">
@@ -22,9 +19,6 @@
         </div>
     </div>
     <div class="sidebar-widget mb-50">
-        <div class="widget-header mb-30">
-            <h5 class="widget-title">Banner <span>2</span></h5>
-        </div>
         <div class="post-aside-style-3">
             <article class="bg-white border-radius-15 mb-30 p-10 wow fadeIn animated">
                 <div class="post-thumb d-flex mb-15 border-radius-15 img-hover-scale">

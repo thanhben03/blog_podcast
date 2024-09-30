@@ -253,7 +253,7 @@
                             </nav>
                         </div>
                     </div>
-                    <x-right-banner />
+                    <x-right-banner-no-title />
                 </div>
             </div>
         </div>

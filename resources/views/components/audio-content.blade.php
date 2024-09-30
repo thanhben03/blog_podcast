@@ -3,7 +3,7 @@
         .card-custom {
             border: none;
             background-color: #8d8d8d;
-            background: url("https://cdn.tuoitre.vn/zoom/250_250/471584752817336320/2024/9/30/photo1727667865193-1727667865291583625804.png");
+            background: url("/assets/bacnguyen/banner/horizontal/slide-01.jpg");
             border-radius: 10px;
             padding: 1.5rem;
             background-size: cover;
