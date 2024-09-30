@@ -356,17 +356,26 @@
         <!-- footer-bottom aera -->
         <div class="footer-bottom-area bg-white text-muted">
             <div class="container">
-                <div class="footer-border pt-20 pb-20">
+                <div class="footer-border pt-20 pb-20 d-flex justify-content-around">
 
                     <div class="row d-flex align-items-center justify-content-between">
-                        <div class="col-12">
                             <div class="footer-copy-right">
-                                <p class="font-medium text-muted">©2024.  Toàn bộ bản quyền thuộc về Nguyễn Văn Bắc</p>
-                                <a class="font-medium text-muted" >Chính sách nội dung</a>
-                                <p class="font-medium text-muted" >Email: bacnguyen.vn@gmail.com</p>
-                                <p class="mt-1 font-medium text-muted" >Điện thoại: 0932886865</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="font-medium text-muted" style="width: max-content">©2024.  Toàn bộ bản quyền thuộc về Nguyễn Văn Bắc</p>
+                                    </div>
+                                    <div class="col">
+
+                                        <p class="font-medium text-muted" style="width: max-content">Email: bacnguyen.vn@gmail.com</p>
+                                        <p class="mt-1 font-medium text-muted" style="width: max-content">Điện thoại: 0932886865</p>
+                                    </div>
+                                    <div class="col">
+                                        <a class="font-medium text-muted" style="width: max-content">Chính sách nội dung</a>
+
+                                    </div>
+
+                                </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
