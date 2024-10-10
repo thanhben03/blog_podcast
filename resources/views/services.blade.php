@@ -89,7 +89,6 @@
                       <path
                         d="M12 7C12.9797 6.99994 13.9378 7.28769 14.7553 7.8275C15.5729 8.36731 16.2138 9.1354 16.5986 10.0364C16.9833 10.9373 17.0949 11.9315 16.9195 12.8953C16.7441 13.8592 16.2893 14.7502 15.6118 15.4579C14.9343 16.1655 14.0638 16.6585 13.1085 16.8756C12.1532 17.0928 11.1552 17.0245 10.2383 16.6793C9.3215 16.334 8.52629 15.7271 7.95146 14.9338C7.37663 14.1405 7.04752 13.1958 7.005 12.217L7 12L7.005 11.783C7.06092 10.4958 7.61161 9.27978 8.54222 8.38866C9.47284 7.49754 10.7115 7.00007 12 7Z"
                         fill="#FD7E41" />
-
                     </svg>
                     <small class="theme-text d-block d-xl-none">Change appearance</small>
                   </span>
@@ -181,46 +180,99 @@
                 <div class="card-body">
                   <div class="top-info">
                     <div class="text">
-                      <h1 class="main-title">Hi, This Is <span>Cris Rayaan</span> 👋</h1>
-                      <p>A Passionate <b>Full Stack Developer</b> 🖥️ & <b>Product Designer</b> having
-                        <b>12 years</b> of Experiences over 24+ Country Worldwide. </p>
+                      <h1 class="main-title">Services I <span>Offered</span></h1>
+                      <p>Transforming Ideas into Innovative Reality, Elevate Your Vision with Our Expert <b>Product
+                          Design and Development</b> Services!</p>
                     </div>
                     <div class="available-btn">
                       <span><i class="fas fa-circle"></i> Available For Hire</span>
                     </div>
                   </div>
-                  <div class="counter-area">
-                    <div class="counter">
-                      <div class="counter-item">
-                        <h3 class="number">40+</h3>
-                        <p class="subtitle">Year of Experience</p>
+                  <div class="services">
+                    <div class="row g-4">
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="assets/img/icons/ui-ux.svg" alt="ui-ux">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">UI UX Design</h3>
+                          </div>
+                        </div>
                       </div>
-                      <div class="counter-item">
-                        <h3 class="number">86+</h3>
-                        <p class="subtitle">Project Completed
-                        </p>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="assets/img/icons/app.svg" alt="app">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Mobile App</h3>
+                          </div>
+                        </div>
                       </div>
-                      <div class="counter-item">
-                        <h3 class="number">72+</h3>
-                        <p class="subtitle">Happy Client
-                        </p>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="assets/img/icons/prd-design.svg" alt="prd-design">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Product Design</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="assets/img/icons/branding.svg" alt="branding">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Branding</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="assets/img/icons/camera.svg" alt="camera">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Photography</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="assets/img/icons/youtube.svg" alt="youtube">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Motion Design</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="assets/img/icons/web-development.svg" alt="web-development">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Web Development</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="assets/img/icons/view.svg" alt="view">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Visualization</h3>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="circle-area">
-                      <div class="circle-text">
-                        <img class="circle-image" src="assets/img/about-us/circle-text.svg" alt="circle-text">
-                        <img class="circle-image circle-image-light d-none"
-                          src="assets/img/about-us/circle-text-light.svg" alt="circle-text">
-                        <span class="arrow-down">
-                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20 5V35" stroke="white" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path d="M15 30L20 35L25 30" stroke="white" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                          </svg>
-                        </span>
-                      </div>
+                    <div class="block-image">
+                      <img src="assets/img/blog/blog-img-1.jpg" alt="blog-img-1" class="img-fluid w-100">
                     </div>
                   </div>
                   <div class="working-with-area">
@@ -558,61 +610,117 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="article-publications">
-                    <h2 class="main-common-title">Article and Publications</h2>
-                    <div class="article-publications-main">
-                      <div class="row article-publications-slider">
-                        <div class="col-lg-6">
-                          <div class="article-publications-item">
-                            <div class="image">
-                              <a href="article.blade.php" class="d-block w-100">
-                                <img src="assets/img/blog/blog-img-1.jpg" alt="blog-img-1" class="img-fluid w-100">
-                              </a>
-                              <a href="article.blade.php" class="tags">Development</a>
-                            </div>
-                            <div class="text">
-                              <a href="article.blade.php" class="title">Want To Upgrade Your Brain? Stop Doing These 7
-                                Things</a>
-                              <ul class="list-unstyled">
-                                <li>15 min read</li>
-                                <li>Nov 6, 2023</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="article-publications-item">
-                            <div class="image">
-                              <a href="article.blade.php" class="d-block w-100">
-                                <img src="assets/img/blog/blog-img-2.jpg" alt="blog-img-2" class="img-fluid w-100">
-                              </a>
-                              <a href="article.blade.php" class="tags">Development</a>
-                            </div>
-                            <div class="text">
-                              <a href="article.blade.php" class="title">Want To Upgrade Your Brain? Stop Doing These 7
-                                Things</a>
-                              <ul class="list-unstyled">
-                                <li>15 min read</li>
-                                <li>Nov 6, 2023</li>
-                              </ul>
+                  <div class="frequently-asked-questions">
+                    <h2 class="main-common-title">Frequently Asked Questions
+                    </h2>
+                    <div class="frequently-asked-questions-main">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h4 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              What does a product designer need to know?
+                              <span class="ms-auto">
+                                <span class="icon ms-4">
+                                  <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
+                                  <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
+                                </span>
+                              </span>
+                            </button>
+                          </h4>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>I'm here to help if you're searching for a product designer to bring your idea to life
+                                or a design partner to help take your business to the next level.</p>
                             </div>
                           </div>
                         </div>
-                        <div class="col-lg-6">
-                          <div class="article-publications-item">
-                            <div class="image">
-                              <a href="article.blade.php" class="d-block w-100">
-                                <img src="assets/img/blog/blog-img-3.jpg" alt="blog-img-3" class="img-fluid w-100">
-                              </a>
-                              <a href="article.blade.php" class="tags">Development</a>
+                        <div class="accordion-item">
+                          <h4 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              What does a product designer need to know?
+                              <span class="ms-auto">
+                                <span class="icon ms-4">
+                                  <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
+                                  <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
+                                </span>
+                              </span>
+                            </button>
+                          </h4>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>I'm here to help if you're searching for a product designer to bring your idea to life
+                                or
+                                a design partner to help take your business to the next level.</p>
                             </div>
-                            <div class="text">
-                              <a href="article.blade.php" class="title">Want To Upgrade Your Brain? Stop Doing These 7
-                                Things</a>
-                              <ul class="list-unstyled">
-                                <li>15 min read</li>
-                                <li>Nov 6, 2023</li>
-                              </ul>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h4 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              What does a product designer need to know?
+                              <span class="ms-auto">
+                                <span class="icon ms-4">
+                                  <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
+                                  <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
+                                </span>
+                              </span>
+                            </button>
+                          </h4>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>I'm here to help if you're searching for a product designer to bring your idea to life
+                                or
+                                a design partner to help take your business to the next level.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h4 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              What does a product designer need to know?
+                              <span class="ms-auto">
+                                <span class="icon ms-4">
+                                  <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
+                                  <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
+                                </span>
+                              </span>
+                            </button>
+                          </h4>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>I'm here to help if you're searching for a product designer to bring your idea to life
+                                or
+                                a design partner to help take your business to the next level.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h4 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              What does a product designer need to know?
+                              <span class="ms-auto">
+                                <span class="icon ms-4">
+                                  <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
+                                  <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
+                                </span>
+                              </span>
+                            </button>
+                          </h4>
+                          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>I'm here to help if you're searching for a product designer to bring your idea to life
+                                or
+                                a design partner to help take your business to the next level.</p>
                             </div>
                           </div>
                         </div>
@@ -667,6 +775,7 @@
     </footer>
     <!-- footer part end -->
   </div>
+
   <!-- JS here -->
   <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>

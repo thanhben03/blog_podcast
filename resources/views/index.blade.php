@@ -22,6 +22,7 @@
 </head>
 
 <body>
+
   <div id="page-content">
     <!-- header part start -->
     <header class="header-area">
@@ -29,7 +30,7 @@
         <div class="container">
           <div class="menu-container">
             <div class="logo">
-              <a class="navbar-brand me-0" href="index.blade.php">
+              <a class="navbar-brand me-0" href="index.html">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0L9 0C9.39782 0 9.77936 0.158035 10.0607 0.43934C10.342 0.720644 10.5 1.10218 10.5 1.5V22.5C10.5 22.8978 10.342 23.2794 10.0607 23.5607C9.77936 23.842 9.39782 24 9 24H1.5C1.10218 24 0.720644 23.842 0.43934 23.5607C0.158035 23.2794 0 22.8978 0 22.5V1.5ZM13.5 1.5C13.5 1.10218 13.658 0.720644 13.9393 0.43934C14.2206 0.158035 14.6022 0 15 0L22.5 0C22.8978 0 23.2794 0.158035 23.5607 0.43934C23.842 0.720644 24 1.10218 24 1.5V9C24 9.39782 23.842 9.77936 23.5607 10.0607C23.2794 10.342 22.8978 10.5 22.5 10.5H15C14.6022 10.5 14.2206 10.342 13.9393 10.0607C13.658 9.77936 13.5 9.39782 13.5 9V1.5ZM13.5 15C13.5 14.6022 13.658 14.2206 13.9393 13.9393C14.2206 13.658 14.6022 13.5 15 13.5H22.5C22.8978 13.5 23.2794 13.658 23.5607 13.9393C23.842 14.2206 24 14.6022 24 15V22.5C24 22.8978 23.842 23.2794 23.5607 23.5607C23.2794 23.842 22.8978 24 22.5 24H15C14.6022 24 14.2206 23.842 13.9393 23.5607C13.658 23.2794 13.5 22.8978 13.5 22.5V15Z"
@@ -40,7 +41,7 @@
             </div>
             <div class="navbar-main d-flex flex-grow-1">
               <div class="logo inner-logo d-block d-xl-none">
-                <a class="navbar-brand me-0" href="index.blade.php">
+                <a class="navbar-brand me-0" href="index.html">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0L9 0C9.39782 0 9.77936 0.158035 10.0607 0.43934C10.342 0.720644 10.5 1.10218 10.5 1.5V22.5C10.5 22.8978 10.342 23.2794 10.0607 23.5607C9.77936 23.842 9.39782 24 9 24H1.5C1.10218 24 0.720644 23.842 0.43934 23.5607C0.158035 23.2794 0 22.8978 0 22.5V1.5ZM13.5 1.5C13.5 1.10218 13.658 0.720644 13.9393 0.43934C14.2206 0.158035 14.6022 0 15 0L22.5 0C22.8978 0 23.2794 0.158035 23.5607 0.43934C23.842 0.720644 24 1.10218 24 1.5V9C24 9.39782 23.842 9.77936 23.5607 10.0607C23.2794 10.342 22.8978 10.5 22.5 10.5H15C14.6022 10.5 14.2206 10.342 13.9393 10.0607C13.658 9.77936 13.5 9.39782 13.5 9V1.5ZM13.5 15C13.5 14.6022 13.658 14.2206 13.9393 13.9393C14.2206 13.658 14.6022 13.5 15 13.5H22.5C22.8978 13.5 23.2794 13.658 23.5607 13.9393C23.842 14.2206 24 14.6022 24 15V22.5C24 22.8978 23.842 23.2794 23.5607 23.5607C23.2794 23.842 22.8978 24 22.5 24H15C14.6022 24 14.2206 23.842 13.9393 23.5607C13.658 23.2794 13.5 22.8978 13.5 22.5V15Z"
@@ -93,7 +94,7 @@
                     <small class="theme-text d-block d-xl-none">Change appearance</small>
                   </span>
                 </button>
-                <a href="contact.html" class="lets-talk-btn">
+                <a href="contact.blade.php" class="lets-talk-btn">
                   Let's Talk
                   <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -119,8 +120,7 @@
 
     <!-- main area part start -->
     <main>
-
-      <section class="content-box-area mt-4">
+      <section class="home-area">
         <div class="container">
           <div class="row g-4">
             <div class="col-xl-4">
@@ -175,196 +175,207 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-8">
-              <div class="card content-box-card">
-                <div class="card-body portfolio-card contact-card">
-                  <div class="top-info">
-                    <div class="text">
-                      <h1 class="main-title">Let's 👋 <span>Work</span> Together</h1>
-                      <p>I'm here to help if you're searching for a product designer to bring your idea to life or a
-                        design partner to help take your business to the next level.</p>
-                    </div>
-                  </div>
-                  <div class="contact-area">
-                    <div class="leave-comments-area">
-                      <div class="comments-box">
-                        <form id="contact-form" action="assets/mail.php" method="POST">
-                          <div class="row gx-3">
-                            <div class="col-md-6">
-                              <div class="mb-4">
-                                <label class="form-label">Name</label>
-                                <input name="name" required type="text" class="form-control shadow-none" placeholder="Enter your name">
+            <div class="col-xl-4">
+              <div class="row g-4">
+                <div class="col-lg-12">
+                  <div class="card">
+                    <div class="card-body work-experiance-card">
+                      <h3 class="card-title">Work Experience</h3>
+                      <div class="work-experiance-main">
+                        <ul class="work-experiance-slider list-unstyled">
+                          <li>
+                            <div class="date">
+                              <p>2021-2024</p>
+                            </div>
+                            <div class="info">
+                              <div class="icon">
+                                <img src="assets/img/icons/adobe.svg" alt="adobe">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Adobe</h4>
+                                <h6 class="subtitle">Senior UI UX Designer</h6>
                               </div>
                             </div>
-                            <div class="col-md-6">
-                              <div class="mb-4">
-                                <label class="form-label">Email</label>
-                                <input name="email" required type="email" class="form-control shadow-none" placeholder="Enter your email">
+                          </li>
+                          <li>
+                            <div class="date">
+                              <p>2021-2024</p>
+                            </div>
+                            <div class="info">
+                              <div class="icon">
+                                <img src="assets/img/icons/google.svg" alt="google">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Google Inc.
+                                </h4>
+                                <h6 class="subtitle">Senior Product Designer
+
+                                </h6>
                               </div>
                             </div>
-                            <div class="col-md-6">
-                              <div class="mb-4">
-                                <label class="form-label">Subject</label>
-                                <input name="subject" required type="text" class="form-control shadow-none" placeholder="Subject">
+                          </li>
+                          <li>
+                            <div class="date">
+                              <p>2021-2024</p>
+                            </div>
+                            <div class="info">
+                              <div class="icon">
+                                <img src="assets/img/icons/meta.svg" alt="meta">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Meta Inc.
+                                </h4>
+                                <h6 class="subtitle">Product Designer
+                                </h6>
                               </div>
                             </div>
-                            <div class="col-md-6">
-                              <div class="mb-4">
-                                <label class="form-label">Budget</label>
-                                <select name="budget" required class="form-select shadow-none">
-                                  <option disabled selected>Select budget...</option>
-                                  <option value="$5000">$5000</option>
-                                  <option value="$5000 - $1000">$5000 - $10000</option>
-                                  <option value="$10000 - $2000">$10000 - $20000</option>
-                                  <option value="$20000">$20000+</option>
-                                </select>
+                          </li>
+                          <li>
+                            <div class="date">
+                              <p>2021-2024</p>
+                            </div>
+                            <div class="info">
+                              <div class="icon">
+                                <img src="assets/img/icons/adobe.svg" alt="adobe">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Adobe</h4>
+                                <h6 class="subtitle">Senior UI UX Designer</h6>
                               </div>
                             </div>
-                            <div class="col-md-12">
-                              <div class="mb-4">
-                                <label class="form-label">Comment</label>
-                                <textarea name="message" class="form-control shadow-none" rows="4"
-                                  placeholder="Type details about your inquiry"></textarea>
+                          </li>
+                        </ul>
+                        <ul class="work-experiance-slider list-unstyled">
+                          <li>
+                            <div class="date">
+                              <p>2021-2024</p>
+                            </div>
+                            <div class="info">
+                              <div class="icon">
+                                <img src="assets/img/icons/adobe.svg" alt="adobe">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Adobe</h4>
+                                <h6 class="subtitle">Senior UI UX Designer</h6>
                               </div>
                             </div>
-                            <div class="col-md-12">
-                              <button class="submit-btn" type="submit">
-                                Send Message
-                                <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                  xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M17.5 11.6665V6.6665H12.5" stroke="white" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                  <path d="M17.5 6.6665L10 14.1665L2.5 6.6665" stroke="white" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                              </button>
+                          </li>
+                          <li>
+                            <div class="date">
+                              <p>2021-2024</p>
                             </div>
-                          </div>
-                        </form>
-                        <p class="ajax-response mb-0"></p>
+                            <div class="info">
+                              <div class="icon">
+                                <img src="assets/img/icons/google.svg" alt="google">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Google Inc.
+                                </h4>
+                                <h6 class="subtitle">Senior Product Designer
+
+                                </h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="date">
+                              <p>2021-2024</p>
+                            </div>
+                            <div class="info">
+                              <div class="icon">
+                                <img src="assets/img/icons/meta.svg" alt="meta">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Meta Inc.
+                                </h4>
+                                <h6 class="subtitle">Product Designer
+                                </h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="date">
+                              <p>2021-2024</p>
+                            </div>
+                            <div class="info">
+                              <div class="icon">
+                                <img src="assets/img/icons/adobe.svg" alt="adobe">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Adobe</h4>
+                                <h6 class="subtitle">Senior UI UX Designer</h6>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
                       </div>
                     </div>
-                    <div class="contact-map-area">
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280012016!2d-74.14448732737499!3d40.69763123331177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1711832776336!5m2!1sen!2sbd"
-                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="frequently-asked-questions">
-                      <h2 class="main-common-title">Frequently Asked Questions
-                      </h2>
-                      <div class="frequently-asked-questions-main">
-                        <div class="accordion" id="accordionExample">
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingOne">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or a design partner to help take your business to the next level.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="card expertise-card">
+                    <div class="card-body">
+                      <h3 class="card-title">My Expert Area
+                      </h3>
+                      <div class="expertise-main mt-24">
+                        <div class="row g-3">
+                          <div class="col-xl-4 col-md-4 col-sm-6 col-6">
+                            <div class="expertise-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/figma.svg" alt="figma">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Figma</h4>
                               </div>
                             </div>
                           </div>
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or
-                                  a design partner to help take your business to the next level.</p>
+                          <div class="col-xl-4 col-md-4 col-sm-6 col-6">
+                            <div class="expertise-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/notion.svg" alt="notion">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Notion</h4>
                               </div>
                             </div>
                           </div>
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or
-                                  a design partner to help take your business to the next level.</p>
+                          <div class="col-xl-4 col-md-4 col-sm-6 col-6">
+                            <div class="expertise-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/mico.svg" alt="micro">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Miro</h4>
                               </div>
                             </div>
                           </div>
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingFour">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or
-                                  a design partner to help take your business to the next level.</p>
+                          <div class="col-xl-4 col-md-4 col-sm-6 col-6">
+                            <div class="expertise-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/framer.svg" alt="framer">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Framer</h4>
                               </div>
                             </div>
                           </div>
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingFive">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or
-                                  a design partner to help take your business to the next level.</p>
+                          <div class="col-xl-4 col-md-4 col-sm-6 col-6">
+                            <div class="expertise-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/webflow.svg" alt="webflow">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Webflow</h4>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4 col-md-4 col-sm-6 col-6">
+                            <div class="expertise-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/zeplin.svg" alt="zeplin">
+                              </div>
+                              <div class="text">
+                                <h4 class="title">Zeplin</h4>
                               </div>
                             </div>
                           </div>
@@ -375,10 +386,159 @@
                 </div>
               </div>
             </div>
+            <div class="col-xl-4">
+              <div class="card card-projects">
+                <div class="card-body">
+
+                  <h3 class="card-title">Recent Projects <a class="link-btn" href="portfolio.blade.php">All Projects
+                      <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.16699 10H15.8337" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path d="M10.833 15L15.833 10" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path d="M10.833 5L15.833 10" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+
+                    </a></h3>
+                  <div class="projects-main mt-24">
+                    <div class="row g-4 parent-container">
+                      <div class="col-lg-12">
+                        <div class="project-item">
+                          <div class="image">
+                            <img src="assets/img/projects/project-1.png" alt="project-1" class="img-fluid w-100">
+                            <a href="assets/img/projects/project-1.png"
+                              class="gallery-popup full-image-preview parent-container">
+                              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                              </svg>
+                            </a>
+                            <div class="info">
+                              <span class="category">Product Design</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="project-item">
+                          <div class="image">
+                            <img src="assets/img/projects/project-2.png" alt="project-2" class="img-fluid w-100">
+                            <a href="assets/img/projects/project-2.png"
+                              class="gallery-popup full-image-preview parent-container">
+                              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                              </svg>
+                            </a>
+                            <div class="info">
+                              <span class="category">Product Design</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services-area mt-24">
+            <div class="row g-4">
+              <div class="col-xl-8">
+                <div class="card services-card">
+                  <div class="card-body">
+                    <h3 class="card-title">Services I Offered
+                      <a class="link-btn" href="services.blade.php"> See All Services
+                        <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.16699 10H15.8337" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path d="M10.833 15L15.833 10" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path d="M10.833 5L15.833 10" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+
+                      </a></h3>
+                    <div class="services-main mt-24">
+                      <div class="row g-4">
+                        <div class="col-md-3 col-sm-6 col-6">
+                          <div class="services-item text-center">
+                            <div class="image">
+                              <img src="assets/img/icons/ui-ux.svg" alt="ui-ux">
+                            </div>
+                            <div class="text">
+                              <h3 class="title">UI UX Design</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                          <div class="services-item text-center">
+                            <div class="image">
+                              <img src="assets/img/icons/app.svg" alt="app">
+                            </div>
+                            <div class="text">
+                              <h3 class="title">Mobile App</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                          <div class="services-item text-center">
+                            <div class="image">
+                              <img src="assets/img/icons/prd-design.svg" alt="prd-design">
+                            </div>
+                            <div class="text">
+                              <h3 class="title">Product Design</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                          <div class="services-item text-center">
+                            <div class="image">
+                              <img src="assets/img/icons/branding.svg" alt="branding">
+                            </div>
+                            <div class="text">
+                              <h3 class="title">Branding</h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="card lets-talk-together-card">
+                  <div class="card-body">
+                    <div class="scrolling-info">
+                      <div class="slider-item">
+                        <p>
+                          Available For Hire 🚀 Crafting Digital Experiences 🎨 Available For Hire 🚀 Crafting Digital
+                          Experiences 🎨
+                        </p>
+                      </div>
+                    </div>
+                    <h3 class="card-title">Let's👋
+                      <span class="d-block">Work Together</span>
+                    </h3>
+                    <a class="link-btn" href="contact.blade.php"> Let's Talk
+                      <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 11.6665V6.6665H12.5" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path d="M17.5 6.6665L10 14.1665L2.5 6.6665" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
       <!-- background shape area start -->
       <div class="background-shapes">
         <div class="shape-1 common-shape">
@@ -418,6 +578,5 @@
   <script src="assets/js/slick.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
-
 
 </html>

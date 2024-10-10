@@ -93,7 +93,7 @@
                     <small class="theme-text d-block d-xl-none">Change appearance</small>
                   </span>
                 </button>
-                <a href="contact.html" class="lets-talk-btn">
+                <a href="contact.blade.php" class="lets-talk-btn">
                   Let's Talk
                   <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -177,198 +177,161 @@
             </div>
             <div class="col-xl-8">
               <div class="card content-box-card">
-                <div class="card-body portfolio-card contact-card">
+                <div class="card-body portfolio-card">
                   <div class="top-info">
                     <div class="text">
-                      <h1 class="main-title">Let's 👋 <span>Work</span> Together</h1>
+                      <h1 class="main-title">Check Out My Latest <span>Projects</span></h1>
                       <p>I'm here to help if you're searching for a product designer to bring your idea to life or a
                         design partner to help take your business to the next level.</p>
                     </div>
                   </div>
-                  <div class="contact-area">
-                    <div class="leave-comments-area">
-                      <div class="comments-box">
-                        <form id="contact-form" action="assets/mail.php" method="POST">
-                          <div class="row gx-3">
-                            <div class="col-md-6">
-                              <div class="mb-4">
-                                <label class="form-label">Name</label>
-                                <input name="name" required type="text" class="form-control shadow-none" placeholder="Enter your name">
-                              </div>
+                  <div class="portfolio-area">
+                    <div class="row g-4 parent-container">
+                      <div class="col-lg-12">
+                        <div class="portfolio-item">
+                          <div class="image">
+                            <img src="assets/img/projects/project-1.png" alt="project-1" class="img-fluid w-100">
+                            <a href="assets/img/projects/project-1.png"
+                              class="gallery-popup full-image-preview parent-container">
+                              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                              </svg>
+                            </a>
+                          </div>
+                          <div class="text">
+                            <div class="info">
+                              <a href="portfolio-details.blade.php" class="title">FlowSaaS - SaaS Application Tools</a>
+                              <p class="subtitle">SaaS App | UI UX Design</p>
                             </div>
-                            <div class="col-md-6">
-                              <div class="mb-4">
-                                <label class="form-label">Email</label>
-                                <input name="email" required type="email" class="form-control shadow-none" placeholder="Enter your email">
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="mb-4">
-                                <label class="form-label">Subject</label>
-                                <input name="subject" required type="text" class="form-control shadow-none" placeholder="Subject">
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="mb-4">
-                                <label class="form-label">Budget</label>
-                                <select name="budget" required class="form-select shadow-none">
-                                  <option disabled selected>Select budget...</option>
-                                  <option value="$5000">$5000</option>
-                                  <option value="$5000 - $1000">$5000 - $10000</option>
-                                  <option value="$10000 - $2000">$10000 - $20000</option>
-                                  <option value="$20000">$20000+</option>
-                                </select>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <div class="mb-4">
-                                <label class="form-label">Comment</label>
-                                <textarea name="message" class="form-control shadow-none" rows="4"
-                                  placeholder="Type details about your inquiry"></textarea>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <button class="submit-btn" type="submit">
-                                Send Message
-                                <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            <div class="visite-btn">
+                              <a href="portfolio-details.blade.php">Visit Site
+                                <svg class="arrow-up" width="14" height="15" viewBox="0 0 14 15" fill="none"
                                   xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M17.5 11.6665V6.6665H12.5" stroke="white" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                  <path d="M17.5 6.6665L10 14.1665L2.5 6.6665" stroke="white" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                  <path d="M9.91634 4.5835L4.08301 10.4168" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                  <path d="M4.66699 4.5835H9.91699V9.8335" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
                                 </svg>
-                              </button>
-                            </div>
-                          </div>
-                        </form>
-                        <p class="ajax-response mb-0"></p>
-                      </div>
-                    </div>
-                    <div class="contact-map-area">
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280012016!2d-74.14448732737499!3d40.69763123331177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1711832776336!5m2!1sen!2sbd"
-                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="frequently-asked-questions">
-                      <h2 class="main-common-title">Frequently Asked Questions
-                      </h2>
-                      <div class="frequently-asked-questions-main">
-                        <div class="accordion" id="accordionExample">
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingOne">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or a design partner to help take your business to the next level.</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or
-                                  a design partner to help take your business to the next level.</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or
-                                  a design partner to help take your business to the next level.</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingFour">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or
-                                  a design partner to help take your business to the next level.</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingFive">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                What does a product designer need to know?
-                                <span class="ms-auto">
-                                  <span class="icon ms-4">
-                                    <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                    <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                  </span>
-                                </span>
-                              </button>
-                            </h4>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <p>I'm here to help if you're searching for a product designer to bring your idea to
-                                  life
-                                  or
-                                  a design partner to help take your business to the next level.</p>
-                              </div>
+                              </a>
                             </div>
                           </div>
                         </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="portfolio-item">
+                          <div class="image">
+                            <img src="assets/img/projects/project-2.png" alt="project-2" class="img-fluid w-100">
+                            <a href="assets/img/projects/project-2.png"
+                              class="gallery-popup full-image-preview parent-container">
+                              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                              </svg>
+                            </a>
+                          </div>
+                          <div class="text">
+                            <div class="info">
+                              <a href="portfolio-details.blade.php" class="title">AIMug - AI Writing Application Tools</a>
+                              <p class="subtitle">Product Design | Application</p>
+                            </div>
+                            <div class="visite-btn">
+                              <a href="portfolio-details.blade.php">Visit Site
+                                <svg class="arrow-up" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9.91634 4.5835L4.08301 10.4168" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                  <path d="M4.66699 4.5835H9.91699V9.8335" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="portfolio-item">
+                          <div class="image">
+                            <img src="assets/img/projects/project-3.png" alt="project-3" class="img-fluid w-100">
+                            <a href="assets/img/projects/project-3.png"
+                              class="gallery-popup full-image-preview parent-container">
+                              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                              </svg>
+                            </a>
+                          </div>
+                          <div class="text">
+                            <div class="info">
+                              <a href="portfolio-details.blade.php" class="title">FlowArch - Architecture Service Website</a>
+                              <p class="subtitle">UI UX Design | Development</p>
+                            </div>
+                            <div class="visite-btn">
+                              <a href="portfolio-details.blade.php">Visit Site
+                                <svg class="arrow-up" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9.91634 4.5835L4.08301 10.4168" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                  <path d="M4.66699 4.5835H9.91699V9.8335" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pagination">
+                      <ul class="list-unstyled">
+                        <li class="prev">
+                          <button>
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                              stroke-width="2" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"></path>
+                            </svg>
+                          </button>
+                        </li>
+                        <li><button>1</button></li>
+                        <li><button>2</button></li>
+                        <li><button>3</button></li>
+                        <li>
+                          <button class="next-page-btn">
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                            <span class="next-page">
+                              <svg class="icon icon-arrow-right" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 17 5-5-5-5"></path>
+                                <path d="m13 17 5-5-5-5"></path>
+                              </svg>
+                            </span>
+                            <span class="next-page-number">Next 4 pages</span>
+                          </button>
+                        </li>
+                        <li><button>100</button></li>
+                        <li class="next">
+                          <button>
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                              stroke-width="2" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="work-together-slider">
+                    <div class="slider-main d-flex gap-4 align-items-center">
+                      <div class="slider-item">
+                        <a href="contact.blade.php">Let's 👋 Work Together</a>
+                        <a href="contact.blade.php">Let's 👋 Work Together</a>
+                      </div>
+                      <div class="slider-item">
+                        <a href="contact.blade.php">Let's 👋 Work Together</a>
+                        <a href="contact.blade.php">Let's 👋 Work Together</a>
                       </div>
                     </div>
                   </div>
