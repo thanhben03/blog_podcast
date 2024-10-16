@@ -94,7 +94,7 @@
                   </span>
                 </button>
                 <a href="contact.blade.php" class="lets-talk-btn">
-                  Let's Talk
+                  Trò chuyện với tôi
                   <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M17.5 11.6665V6.6665H12.5" stroke="white" stroke-width="1.5" stroke-linecap="round"

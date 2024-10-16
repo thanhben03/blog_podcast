@@ -41,3 +41,7 @@ Route::get('/portfolio-details', function () {
 Route::get('/services', function () {
     return view('services');
 });
+
+Route::get('/document', function () {
+    return view('document-transaction');
+});

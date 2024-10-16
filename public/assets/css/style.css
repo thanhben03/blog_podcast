@@ -366,7 +366,7 @@ p {
 }
 
 .header-area .header-right-info .lets-talk-btn {
-	background-color: var(--black);
+	background-color: #F05A28;
 	border-radius: 8px;
 	padding: 16px 24px;
 	font-size: 16px;
@@ -716,7 +716,6 @@ p {
 }
 
 .services-item {
-	background-color: var(--background);
 	padding: 16px 16px 24px 16px;
 	border-radius: 16px;
 }
@@ -2570,4 +2569,9 @@ p {
 .dark-theme .portfolio-details-area .prev-and-next-btn .btn:hover {
 	background-color: var(--primary);
 	color: var(--white);
+}
+
+.common-button-groups {
+    display: flex;
+    flex-direction: column;
 }
