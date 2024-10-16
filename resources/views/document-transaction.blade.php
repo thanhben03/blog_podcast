@@ -34,20 +34,20 @@
                                             </ul>
                                         </div>
                                         <a
+                                            href="#"
                                             style="
                                                     border: none;
                                                     padding: 4px 12px;
                                                     background: no-repeat;
-                                                    color: blue;"
-                                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    color: blue;">
                                             Công cụ phân tích                                            </a>
                                         <a
+                                            href="#"
                                             style="
                                                     border: none;
                                                     padding: 4px 12px;
                                                     background: no-repeat;
-                                                    color: blue;"
-                                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    color: blue;">
                                             Thuật ngữ giao dịch                                            </a>
                                     </div>
                                     <div class="social-media-icon">
