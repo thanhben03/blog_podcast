@@ -50,14 +50,14 @@
                                                     color: blue;">
                                             Thuật ngữ giao dịch                                            </a>
                                     </div>
-                                    <div class="social-media-icon">
-                                        <ul class="list-unstyled">
-                                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-github"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        </ul>
-                                    </div>
+{{--                                    <div class="social-media-icon">--}}
+{{--                                        <ul class="list-unstyled">--}}
+{{--                                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>--}}
+{{--                                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>--}}
+{{--                                            <li><a href="#"><i class="fab fa-github"></i></a></li>--}}
+{{--                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>--}}
+{{--                                        </ul>--}}
+{{--                                    </div>--}}
                                 </div>
                             </div>
                         </div>
